@@ -11,5 +11,9 @@ func() {
 	fmt.Println("Задание № 1:")
 
 	evennumber.Calculation()
+	
+	fmt.Println("Задание № 2:")
+
+	fmt.Println("Задание № 3:")
 
 }
