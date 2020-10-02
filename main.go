@@ -1,10 +1,12 @@
 package main
 
-import
+import (
 
 "fmt"
 
 "github.com/Partizan84/go-intro/evennumber"
+
+)
 
 func main() {
 
