@@ -7,7 +7,8 @@ import (
 )
 
 //Вычисление числа Фибоначчи.
+
 func Calculation() {
 
-	fmt.Println()
+	fmt.Println(" ")
 }
