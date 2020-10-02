@@ -6,7 +6,7 @@ import
 
 "github.com/Partizan84/go-intro/evennumber"
 
-func() {
+func main() {
 
 	fmt.Println("Задание № 1:")
 
