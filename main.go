@@ -1,4 +1,4 @@
-package evennumber
+package main
 
 import
 
