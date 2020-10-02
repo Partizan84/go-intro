@@ -14,6 +14,8 @@ fmt.Println("Введите число для проверки на четнос
 fmt.Scanln(number)
 
 	if number % 4 == 0 {
-        fmt.Println("8 делится на 4")
+		fmt.Println("8 делится на 4")
+	}
+		
 
 }
