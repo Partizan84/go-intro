@@ -7,10 +7,10 @@ import
 "github.com/Partizan84/go-intro/evennumber"
 
 //Функция проверки четности числа.
-func main() {
+func() {
 
-fmt.Println(evennumber.Calculation)
+	fmt.Println("Задание № 1:")
 
-math
+	evennumber.Calculation()
 
 }
