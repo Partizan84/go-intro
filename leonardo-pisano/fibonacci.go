@@ -1,11 +1,12 @@
 package pisano
 
-import
+import (
 
 "fmt"
 
-"math"
+)
 
+//Вычисление числа Фибоначчи.
 func Calculation() {
 
 	fmt.Println()
