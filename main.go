@@ -4,7 +4,7 @@ import
 
 "fmt"
 
-"github.com/Partizan84/go-intro/homework-2/"
+"github.com/Partizan84/go-intro/evennumber"
 
 //Функция проверки четности числа.
 func main() {
