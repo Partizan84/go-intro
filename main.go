@@ -23,4 +23,8 @@ func main() {
 
 	division.Calculation()
 
+	fmt.Println("Задание № 3:")
+
+	pisano.Calculation()
+
 }
