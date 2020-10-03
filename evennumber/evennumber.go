@@ -4,7 +4,7 @@ import
 
 "fmt"
 
-//Функция проверки четности числа.
+//Calculation Функция проверки четности числа.
 func Calculation() {
 
 var number int
