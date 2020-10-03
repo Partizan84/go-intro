@@ -11,10 +11,11 @@ var number int
 
 fmt.Println("Введите число для проверки на четность:")
 
-fmt.Scanln(number)
+fmt.Scan(&number)
 
 	if number % 2 == 0 {
-		fmt.Println("%n.2f делится на 2 без остатка, число четное.", number)
-	}
+		fmt.Println(number," - число четное.")
+	} else {fmt.Println(number," - число нечетное.")
+	}	
 		
 }
