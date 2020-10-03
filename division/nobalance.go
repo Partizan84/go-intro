@@ -13,5 +13,10 @@ func Calculation() {
 	
 	fmt.Scanln(&number)
 
+	if number % 3 == 0 {
+		fmt.Println(number," - делится нацело на 3.")
+	} else {fmt.Println(number," - не делится нацело на 3.")
+	}	
+
 
 }
