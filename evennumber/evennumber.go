@@ -13,8 +13,8 @@ fmt.Println("Введите число для проверки на четнос
 
 fmt.Scanln(number)
 
-	if number % 4 == 0 {
-		fmt.Println("%n.2f делится на 4", number)
+	if number % 2 == 0 {
+		fmt.Println("%n.2f делится на 2 без остатка, число четное.", number)
 	}
 		
 }
