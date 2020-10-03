@@ -11,7 +11,7 @@ func Calculation() {
 	 
 	fmt.Println("Введите число для верки деления на 3:")
 	
-	fmt.Scanln(&num)
+	fmt.Scan(&num)
 
 	if num % 3 == 0 {
 		fmt.Println(num," - делится нацело на 3.")
