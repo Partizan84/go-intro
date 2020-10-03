@@ -6,9 +6,10 @@ import (
 
 )
 
-//Вычисление числа Фибоначчи.
+//Calculation Вычисление числа Фибоначчи.
 
 func Calculation() {
 
 	fmt.Println(" ")
+	
 }
