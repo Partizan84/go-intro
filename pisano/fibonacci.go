@@ -7,7 +7,7 @@ func Calculation(N uint) uint{
 
 	var 	FN []uint
 
-	FN = make([]uint, N)
+	FN = make([]uint, N+1)
 
 	FN[0] = 0
 
@@ -25,4 +25,5 @@ func Calculation(N uint) uint{
 func pisano() {
 
 	fmt.Println(Calculation(100))
-}
+	
+	}
