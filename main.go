@@ -9,7 +9,6 @@ import (
 	"go-intro/pisano"
 
 	"fmt"
-
 	
 )
 
@@ -25,6 +24,6 @@ func main() {
 
 	fmt.Println("Задание № 3:")
 
-	pisano.Calculation()
+	pisano.Calculation(100)
 
 }
