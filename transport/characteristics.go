@@ -32,7 +32,8 @@ type truck struct {
 	windowTruckOpen
 }
 
-func transport() {
+//Transport Ввод и вывод информации о транспортных средствах.
+func Transport() {
 	car1 := car{
 		brandCar: "Subaru XV",
 		yearCar: 2019,
