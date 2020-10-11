@@ -24,10 +24,10 @@ func main() {
         if input == "exit" {
             break
 		}
-		
+		// Добавлена справка к калькулятору.
 		if input == "help" {
-			fmt.Printf("Справка по работе калькулятора.\n Для вычисления бинарный выражений :\n 1) Введите первый аргумент.\n 2) Введите выражение:+-/*%&| \n 3) Введите второй аргумент.")
-			break
+			calculator.HelpCalc()
+			continue
 		}
 
         if res, err := calculator.Calculate(input); err == nil {

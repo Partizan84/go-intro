@@ -38,6 +38,10 @@ func Calculate(expr string) (float64, error) {
         return eval(root)
     }
 }
+//HelpCalc Вызов справки.
+func HelpCalc()  {
+	println("Справка по работе калькулятора.\n Для вычисления бинарный выражений :\n 1) Введите первый аргумент.\n 2) Введите выражение:+-/*%&| \n 3) Введите второй аргумент.")
+}
 //Func структура описывающая все математические выражения.
 type Func struct {
     Name string
