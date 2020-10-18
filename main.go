@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"log"
+	"go-intro/encodingcsv"
 )
 
 func openFile(fileName string) (file *os.File, err error) {
@@ -40,4 +41,5 @@ func fileContent (fileName string) string {
 func main() {
 	comment.Commenttaskone()
 	fmt.Println(fileContent("main.go"))
+	encodingcsv.EncodingCsv()
 }
