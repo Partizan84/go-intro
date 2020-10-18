@@ -1,0 +1,6 @@
+package tasktwo
+
+func tasktwo() {
+	
+}
+
