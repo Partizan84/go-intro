@@ -1,4 +1,4 @@
-package homework1
+package comment
 
 import ("fmt")
 
