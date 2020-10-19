@@ -1,6 +1,0 @@
-package tasktwo
-
-func tasktwo() {
-	
-}
-
