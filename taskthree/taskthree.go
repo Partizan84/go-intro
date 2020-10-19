@@ -1,5 +1,0 @@
-package taskthree
-
-func taskthree() {
-	
-}

@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"go-intro/image"
 	"go-intro/statistic"
+	"go-intro/hello"
 )
 
 func main() {
@@ -16,4 +17,5 @@ func main() {
 	image.Image()
 
 	fmt.Println("Задание № 3./n")
+	hello.Createserver()
 }
