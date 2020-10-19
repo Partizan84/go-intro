@@ -1,10 +1,8 @@
 package main
 
 import (
-	"image"
-
 	"fmt"
-	"go-intro\image"
+	"go-intro/image"
 )
 
 func main() {

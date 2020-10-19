@@ -13,9 +13,9 @@ var red color.Color = color.RGBA{R: 200, G: 30, B: 30, A: 255}
 var green color.Color = color.RGBA{G: 255, A: 255}
 var black color.Color = color.RGBA{A: 255}
 
-func drawDiagonalLines(image image.RGBA, color color.Color, incline int, offset int) {
-	for x := 0; x < 200; x++ {
-		y := x/incline + offset
+func drawVertikalLines(image image.RGBA, color color.Color, offset int) {
+	for y := 0; y < 200; y++ {
+		x := offset
 		image.Set(x, y, color)
 	}
 }
@@ -32,7 +32,7 @@ func Image() {
 	draw.Draw(ourImage, ourImage.Bounds(), &image.Uniform{C: green}, image.Point{}, draw.Src)
 
 	for i := -200; i < 200; i += 5 {
-		drawDiagonalLines(*ourImage, red, 1, i)
+		drawVertikalLines(*ourImage, red, i)
 	}
 
 	for i := 0; i < 200; i += 5 {
